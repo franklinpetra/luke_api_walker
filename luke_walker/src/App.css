@@ -1,0 +1,116 @@
+. * {
+  background-color: beige;
+  padding:0px;
+  margin:0px;
+}
+.obi{
+  height:100px;
+}
+.App {
+  text-align: center;
+  justify-items: space-around;
+}
+.App label{
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  padding: 50px 10px 0px 20px;
+  color:rgb(108, 100, 100);
+  font-weight: bold;
+  margin:0px 0px 0px 0px;
+}
+
+.form-group button{
+  background-color: dodgerblue;
+  height: 50px;
+  width: 110px;
+  border-radius: 5px;
+  display: inline-block;
+  justify-content: space-around;
+  margin-left: 30px;
+  color: white;
+  font-weight:bold;
+  font-size: large;
+}
+
+.form-group button:hover{
+  background-color: light green;
+  color:black;
+  animation: App-logo-spin infinite 20s linear;
+}
+
+.People{
+  width:180px;
+  height:40px;
+  text-align: center;
+  border-radius: 4px;
+  background-color: lightgrey;
+  color: black;
+  justify-content: space-around;
+  border-style: none;
+  font-weight:bold;
+  font-size: large;
+  margin:0px 50px 0px 0px;
+}
+.ID{
+  width:80px;
+  height:40px;
+  text-align: center;
+  background-color: lightgrey;
+  border-radius: 4px;
+  justify-content: space-around;
+  border-style: none;
+  font-weight:bold;
+  font-size: large;
+  margin:0px 0px 0px 0px;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .obi {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.App ul{
+  display: inline-block;
+}
+.App ul li{
+  text-transform: capitalize;
+  list-style: none;
+  text-align: left;
+  list-style-position: inherit; 
+}
+.people ul li{
+  text-transform: capitalize;
+  list-style: none;
+  text-align: left;
+  list-style-position: inherit; 
+
+}
